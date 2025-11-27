@@ -1,0 +1,70 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/251020904208/baitap/blob/main/BAITAPCHANLE\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "n = int(input(\"Nhập n: \"))\n",
+        "tong_chan = 0\n",
+        "tong_le = 0\n",
+        "\n",
+        "for i in range(n):\n",
+        "    x = int(input(\"Nhập phần tử: \"))\n",
+        "    if x % 2 == 0:\n",
+        "        tong_chan += x\n",
+        "    else:\n",
+        "        tong_le += x\n",
+        "\n",
+        "print(\"Tổng chẵn =\", tong_chan)\n",
+        "print(\"Tổng lẻ =\", tong_le)\n"
+      ],
+      "metadata": {
+        "id": "RcuN-JBSGuw2",
+        "outputId": "012d962c-9182-4566-cc53-b2b8dc0846dc",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Nhập n: 5\n",
+            "Nhập phần tử: 1\n",
+            "Nhập phần tử: 2\n",
+            "Nhập phần tử: 3\n",
+            "Nhập phần tử: 4\n",
+            "Nhập phần tử: 5\n",
+            "Tổng chẵn = 6\n",
+            "Tổng lẻ = 9\n"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "colab": {
+      "name": "Chào mừng bạn đến với Colab",
+      "toc_visible": true,
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
+}
